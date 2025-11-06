@@ -1,0 +1,2 @@
+python: error: Failed to locate 'python'.
+xcode-select: Failed to locate 'python', requesting installation of command line developer tools.

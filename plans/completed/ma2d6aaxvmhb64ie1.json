@@ -1,0 +1,116 @@
+{
+  "id": "ma2d6aaxvmhb64ie1",
+  "request": "Create a simple TODO app component with React",
+  "status": "executing",
+  "createdAt": "2025-10-28T22:58:45.913Z",
+  "updatedAt": "2025-10-28T22:58:45.913Z",
+  "complexity": {
+    "score": 5,
+    "level": "medium",
+    "factors": {
+      "length": "low",
+      "domains": [
+        "frontend"
+      ],
+      "dependencies": "low",
+      "integration": "low",
+      "scale": "small"
+    }
+  },
+  "tasks": [
+    {
+      "id": "analysis",
+      "type": "analysis",
+      "description": "Analyze requirements and create implementation plan",
+      "priority": "high",
+      "estimatedTime": "15-30 min",
+      "agentType": "Plan"
+    },
+    {
+      "id": "frontend",
+      "type": "frontend",
+      "description": "Implement frontend components and UI",
+      "priority": "high",
+      "estimatedTime": "2-4 hours",
+      "agentType": "senior-frontend-developer",
+      "dependencies": [
+        "analysis"
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "taskId": "analysis",
+      "agentType": "Plan",
+      "task": {
+        "id": "analysis",
+        "type": "analysis",
+        "description": "Analyze requirements and create implementation plan",
+        "priority": "high",
+        "estimatedTime": "15-30 min",
+        "agentType": "Plan"
+      },
+      "estimatedDuration": "15-30 min"
+    },
+    {
+      "taskId": "frontend",
+      "agentType": "senior-frontend-developer",
+      "task": {
+        "id": "frontend",
+        "type": "frontend",
+        "description": "Implement frontend components and UI",
+        "priority": "high",
+        "estimatedTime": "2-4 hours",
+        "agentType": "senior-frontend-developer",
+        "dependencies": [
+          "analysis"
+        ]
+      },
+      "estimatedDuration": "2-4 hours"
+    }
+  ],
+  "dependencies": {},
+  "context": {},
+  "results": {},
+  "options": {
+    "autoStart": true,
+    "workflowType": "frontend-component",
+    "template": {
+      "name": "Frontend Component Development",
+      "description": "React/Vue component development with testing and styling",
+      "phases": [
+        {
+          "name": "component-analysis",
+          "agentType": "senior-frontend-developer",
+          "estimatedTime": "30 min",
+          "dependencies": []
+        },
+        {
+          "name": "implementation",
+          "agentType": "senior-frontend-developer",
+          "estimatedTime": "2-4 hours",
+          "dependencies": [
+            "component-analysis"
+          ]
+        },
+        {
+          "name": "testing",
+          "agentType": "senior-frontend-developer",
+          "estimatedTime": "1-2 hours",
+          "dependencies": [
+            "implementation"
+          ]
+        },
+        {
+          "name": "styling",
+          "agentType": "senior-frontend-developer",
+          "estimatedTime": "1-2 hours",
+          "dependencies": [
+            "implementation"
+          ]
+        }
+      ]
+    }
+  },
+  "startedAt": "2025-10-28T22:58:45.914Z"
+}

@@ -291,6 +291,36 @@ class AgentTemplates {
         'Performance review'
       ]
     });
+
+    // Orchestration Specialists
+    this.templates.set('orchestrator', {
+      name: 'orchestrator',
+      description: 'Central orchestration agent that manages multi-agent workflows, task distribution, and parallel execution',
+      model: 'claude-sonnet-4-5-20250929',
+      tools: ['Read', 'LS', 'Grep', 'Glob', 'Create', 'Edit', 'MultiEdit', 'Execute', 'WebSearch', 'FetchUrl', 'TodoWrite'],
+      capabilities: [
+        'Multi-agent workflow orchestration',
+        'Task complexity analysis and decomposition',
+        'Parallel agent coordination',
+        'Dependency resolution',
+        'Real-time progress monitoring',
+        'Adaptive plan management',
+        'Context synchronization',
+        'Performance optimization',
+        'Agent lifecycle management',
+        'Quality assurance integration'
+      ],
+      focusAreas: [
+        'Workflow design and execution',
+        'Task distribution algorithms',
+        'Agent coordination protocols',
+        'Plan management and adaptation',
+        'Performance monitoring',
+        'Quality assurance',
+        'Resource optimization',
+        'Failure recovery'
+      ]
+    });
   }
 
   getTemplate(agentType) {

@@ -1,0 +1,20 @@
+{"timestamp":"2025-10-28T22:41:01.822Z","level":"info","message":"Created shared task list","planId":"test-plan-123","metadata":{"taskCount":2}}
+{"timestamp":"2025-10-28T22:41:01.822Z","level":"error","message":"Failed to initialize coordination","planId":"test-plan-123","metadata":{"error":"Cannot read properties of undefined (reading 'length')"}}
+{"timestamp":"2025-10-28T22:41:08.161Z","level":"info","message":"Created shared task list","planId":"test-plan-123","metadata":{"taskCount":2}}
+{"timestamp":"2025-10-28T22:41:08.162Z","level":"error","message":"Failed to initialize coordination","planId":"test-plan-123","metadata":{"error":"Cannot read properties of undefined (reading 'length')"}}
+{"timestamp":"2025-10-28T22:41:16.523Z","level":"info","message":"Created shared task list","planId":"test-plan-123","metadata":{"taskCount":2}}
+{"timestamp":"2025-10-28T22:41:16.524Z","level":"info","message":"Created shared context","planId":"test-plan-123","metadata":{"agentCount":0}}
+{"timestamp":"2025-10-28T22:41:16.524Z","level":"info","message":"Coordination initialized","planId":"test-plan-123","metadata":{"planId":"test-plan-123"}}
+{"timestamp":"2025-10-28T22:41:16.526Z","level":"info","message":"Task task1 status updated to in_progress","planId":"test-plan-123","metadata":{"taskId":"task1","status":"in_progress","updates":{"startedAt":"2025-10-28T22:41:16.525Z"}}}
+{"timestamp":"2025-10-28T22:41:16.528Z","level":"info","message":"Task task1 status updated to completed","planId":"test-plan-123","metadata":{"taskId":"task1","status":"completed","updates":{"result":"Task completed successfully","completedAt":"2025-10-28T22:41:16.527Z"}}}
+{"timestamp":"2025-10-28T22:41:16.528Z","level":"info","message":"Tasks unblocked by completion of task1","planId":"test-plan-123","metadata":{"unblockedTasks":["task2"]}}
+{"timestamp":"2025-10-28T22:41:16.529Z","level":"error","message":"Failed to update agent status: senior-frontend-developer","planId":"test-plan-123","metadata":{"error":"Agent not found: senior-frontend-developer"}}
+{"timestamp":"2025-10-28T22:41:21.297Z","level":"info","message":"Created shared task list","planId":"test-plan-123","metadata":{"taskCount":2}}
+{"timestamp":"2025-10-28T22:41:21.297Z","level":"info","message":"Created shared context","planId":"test-plan-123","metadata":{"agentCount":0}}
+{"timestamp":"2025-10-28T22:41:21.297Z","level":"info","message":"Coordination initialized","planId":"test-plan-123","metadata":{"planId":"test-plan-123"}}
+{"timestamp":"2025-10-28T22:41:21.298Z","level":"info","message":"Task task1 status updated to in_progress","planId":"test-plan-123","metadata":{"taskId":"task1","status":"in_progress","updates":{"startedAt":"2025-10-28T22:41:21.297Z"}}}
+{"timestamp":"2025-10-28T22:41:21.299Z","level":"info","message":"Task task1 status updated to completed","planId":"test-plan-123","metadata":{"taskId":"task1","status":"completed","updates":{"result":"Task completed successfully","completedAt":"2025-10-28T22:41:21.298Z"}}}
+{"timestamp":"2025-10-28T22:41:21.299Z","level":"info","message":"Tasks unblocked by completion of task1","planId":"test-plan-123","metadata":{"unblockedTasks":["task2"]}}
+{"timestamp":"2025-10-28T22:41:21.300Z","level":"info","message":"Communication added from senior-frontend-developer to senior-backend-developer","planId":"test-plan-123","metadata":{"from":"senior-frontend-developer","to":"senior-backend-developer","type":"info"}}
+{"timestamp":"2025-10-28T22:41:21.300Z","level":"info","message":"Data shared by senior-frontend-developer","planId":"test-plan-123","metadata":{"agentType":"senior-frontend-developer","dataType":"components"}}
+{"timestamp":"2025-10-28T22:41:21.301Z","level":"info","message":"Coordination cleanup completed","planId":"test-plan-123","metadata":{}}
